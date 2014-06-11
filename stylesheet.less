@@ -634,6 +634,12 @@ footer.bk-footer span {
   padding: 10px 20px 10px 40px;
   border: 1px solid @color-swatch1;
 }
+.widget.paypalbuynow .widget.button.paypal:hover,
+.widget.dropbox button:hover, .widget.tweet a:hover, .widget.clicktocall a:hover{
+  color: @color-swatch3;
+  border-color: @font-swatch7-background-color-hover;
+  background-color: @font-swatch7-background-color-hover;
+}
 .widget.tweet a{
   padding: 15px 20px 15px 40px;
 }
@@ -1020,9 +1026,9 @@ hr.line.align-right {
 }
 .signupform fieldset button{
   padding: 10px 25px;
-  background: 1px solid @color-swatch1;
+  border-color: 1px solid @color-swatch1;
   color: @color-swatch1;
-  border-color: @font-swatch7-background-color-hover;
+  background: transparent;
 }
 .signupform fieldset button:hover{
   background-color: @font-swatch7-background-color-hover;
@@ -1542,6 +1548,12 @@ hr.line.align-right {
   color: @color-swatch1;
   border: 1px solid @color-swatch1;
   margin-right: 1em;
+}
+.front-s .widget.button button:hover{
+  background-color: @font-swatch7-background-color-hover;
+  cursor: pointer;
+  color: @color-swatch1;
+  border-color: @font-swatch7-background-color-hover;
 }
 .about-s{
   text-align: center;
