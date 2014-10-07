@@ -2,7 +2,7 @@
     "name":"Logi",
     "thumbnail":"Logi.png",
     "screenshot":"Logi.png",
-    "templateType":"general",
+    "templateType":"standard",
     "pageTypes":["default","home"],
     "tags": {
         "en": ["Business", "Trade", "company", "business", "corporate", "finance", "financial", "firm", "money", "simple"]        
